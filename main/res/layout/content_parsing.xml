@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:paddingTop="20dp"
+    android:layout_marginTop="50dp"
+    android:paddingBottom="20dp">
+
+    <TextView
+        android:id="@+id/below"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Please enter text below"
+        android:textAlignment="center" />
+
+    <EditText
+        android:id="@+id/entertext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:textSize="25sp" />
+
+    <Button
+        android:id="@+id/gotobutton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="goto2"
+        android:text="Goto 2" />
+
+
+</LinearLayout>

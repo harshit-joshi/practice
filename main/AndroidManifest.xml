@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.joshigloballogic.harshit.practice">
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+    <uses-permission android:name="android.permission.INTERNET">
+        
+    </uses-permission>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".hello"
+            android:label="@string/title_activity_hello"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".buddy"
+            android:label="@string/title_activity_buddy"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".buddynames"
+            android:label="@string/title_activity_buddynames"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".parsing"
+            android:label="@string/title_activity_parsing"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".parsereceiver"
+            android:label="@string/title_activity_parsereceiver"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".broadcast"
+            android:label="@string/title_activity_broadcast"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".intentfilter"
+            android:label="@string/title_activity_intentfilter"
+            android:theme="@style/AppTheme.NoActionBar" />
+    </application>
+
+</manifest>

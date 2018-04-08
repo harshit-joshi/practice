@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">practice</string>
+    <string name="title_activity_hello">hello</string>
+    <string name="title_activity_buddy">buddy</string>
+    <string name="title_activity_buddynames">buddynames</string>
+    <string name="title_activity_parsing">parsing</string>
+    <string name="title_activity_parsereceiver">parsereceiver</string>
+    <string name="title_activity_broadcast">broadcast</string>
+    <string name="title_activity_intentfilter">intentfilter</string>
+    <string name="title_activity_browser">Browser</string>
+    <string name="title_activity_downloadimage">downloadimage</string>
+    <string name="title_activity_file_service">FileService</string>
+</resources>
